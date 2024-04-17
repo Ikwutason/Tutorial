@@ -1,0 +1,112 @@
+/* h1{
+    background-color: black;
+    border: 2px dotted red;
+    text-align: center;
+    color: brown;
+}
+P{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+
+}
+div p:nth-child(2) {
+    font-size: small;
+    font-weight: lighter;
+    text-align: right;
+    text-decoration: double;
+    text-transform: capitalize;
+    /* color: black; */
+
+
+/* div p:nth-child(1) {
+    font-style: unset;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0cqw;
+    /* color: blue; */
+    /* text-align: left;
+     */
+    /* nav div p{
+        color: black;
+    }
+    footer{
+        background-color: black;
+    }
+
+        footer div{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        
+        }
+        footer div p{
+            color: azure;
+            border: 2px solid;
+            text-decoration: none;
+            font-style: normal;
+            cursor: pointer;
+        }
+        #title{
+            color: darkolivegreen;
+            background-color: white;
+            border: none;
+            text-decoration: none;
+        }
+        #last{
+            color: darkturquoise;
+            text-align: center;
+            background-color: white;
+            border: none;
+        }  */
+        /* *{
+            background-color: black;
+        } */
+        body{
+            background-color: skyblue;
+        }
+        div{
+            border: 2px solid transparent;
+            width: 25%;
+            height: 50vh;
+            padding-bottom: 20px;
+            border-radius: 40px;
+            background-color: rgb(144, 144, 144);
+            margin-left: 35%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        input{
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        input::placeholder{
+            padding-left: 20px;
+        }
+        #radio{
+            position: relative;
+            top: 7px;
+            width: 20px;
+        }
+        .first{
+            background-color: green;
+            border: none;
+            height: 35px;
+
+        }
+        .second{
+            background-color: red;
+            border: none;
+            height: 35px;
+
+        }
+        button{
+            position: relative;
+            top: 100px;
+            left: 250px;
+        }
+
